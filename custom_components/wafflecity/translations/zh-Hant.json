@@ -1,0 +1,38 @@
+{
+  "title": "窩福社區",
+  "config": {
+    "step": {
+      "user": {
+        "title": "窩福社區帳號",
+        "description": "請輸入您的窩福社區帳號資訊。",
+        "data": {
+          "phone": "手機號碼",
+          "password": "密碼",
+          "country_code": "國碼"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "手機號碼或密碼錯誤",
+      "cannot_connect": "無法連線至窩福社區",
+      "unknown": "發生未預期的錯誤"
+    },
+    "abort": {
+      "already_configured": "此帳號已設定"
+    }
+  },
+  "device": {
+    "package_tracker": {
+      "name": "窩福社區",
+      "manufacturer": "窩福社區"
+    }
+  },
+  "entity": {
+    "sensor": {
+      "pending_packages": {
+        "name": "待領包裹",
+        "unit_of_measurement": "件"
+      }
+    }
+  }
+}
