@@ -1,3 +1,5 @@
+<img src="assets/icon.png" alt="窩福社區" width="128">
+
 # 窩福社區 Home Assistant 自訂整合元件
 
 [![hacs_badge](https://img.shields.io/badge/HACS-custom-orange.svg?style=for-the-badge)](https://github.com/hacs/integration)

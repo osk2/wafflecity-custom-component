@@ -1,3 +1,5 @@
+<img src="assets/icon.png" alt="Waffle City" width="128">
+
 # Waffle City Custom Component for Home Assistant
 
 [![hacs_badge](https://img.shields.io/badge/HACS-custom-orange.svg?style=for-the-badge)](https://github.com/hacs/integration)
