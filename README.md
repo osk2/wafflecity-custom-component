@@ -1,5 +1,7 @@
 # Waffle City Custom Component for Home Assistant
 
+**English** | [繁體中文](README.zh-Hant.md)
+
 Home Assistant integration for Waffle City (窩福社區) package tracking.
 
 ## Features
