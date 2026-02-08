@@ -69,10 +69,6 @@ automation:
           message: "You have {{ states('sensor.waffle_city_pending_packages') }} package(s) waiting."
 ```
 
-## Supported Countries
-
-TW, CN, HK, MO, JP, KR, TH, SG, MY, ID, VN, PH, AU, IN
-
 ## License
 
 MIT

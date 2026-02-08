@@ -69,10 +69,6 @@ automation:
           message: "您有 {{ states('sensor.waffle_city_pending_packages') }} 件包裹待領取"
 ```
 
-## 支援國家
-
-TW, CN, HK, MO, JP, KR, TH, SG, MY, ID, VN, PH, AU, IN
-
 ## 授權條款
 
 MIT
