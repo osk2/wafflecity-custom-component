@@ -1,5 +1,9 @@
 # Waffle City Custom Component for Home Assistant
 
+[![hacs_badge](https://img.shields.io/badge/HACS-custom-orange.svg?style=for-the-badge)](https://github.com/hacs/integration)
+![GitHub release (latest version)](https://img.shields.io/github/v/release/osk2/wafflecity-custom-component?style=for-the-badge)
+[![GitHub license](https://img.shields.io/github/license/osk2/wafflecity-custom-component?style=for-the-badge)](https://github.com/osk2/wafflecity-custom-component/blob/master/LICENSE)
+
 **English** | [繁體中文](README.zh-Hant.md)
 
 Home Assistant integration for Waffle City (窩福社區) package tracking.
