@@ -23,8 +23,7 @@
   },
   "device": {
     "package_tracker": {
-      "name": "Waffle City",
-      "manufacturer": "Waffle City"
+      "name": "Waffle City"
     }
   },
   "entity": {
