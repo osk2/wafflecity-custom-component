@@ -65,6 +65,8 @@ automation:
         data:
           title: "新包裹已送達"
           message: "您有 {{ states('sensor.waffle_city_pending_packages') }} 件包裹待領取"
+          data:
+            image: "{{ state_attr('sensor.waffle_city_pending_packages', 'packages')[-1].thumbnail }}"
 ```
 
 ## 授權條款

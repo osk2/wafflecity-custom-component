@@ -65,6 +65,8 @@ automation:
         data:
           title: "New Package Arrived"
           message: "You have {{ states('sensor.waffle_city_pending_packages') }} package(s) waiting."
+          data:
+            image: "{{ state_attr('sensor.waffle_city_pending_packages', 'packages')[-1].thumbnail }}"
 ```
 
 ## License
