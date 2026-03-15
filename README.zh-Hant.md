@@ -2,7 +2,7 @@
 
 # 窩福社區 Home Assistant 自訂整合元件
 
-[![hacs_badge](https://img.shields.io/badge/HACS-custom-orange.svg?style=for-the-badge)](https://github.com/hacs/integration)
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-blue.svg?style=for-the-badge)](https://github.com/hacs/integration)
 ![GitHub release (latest version)](https://img.shields.io/github/v/release/osk2/wafflecity-custom-component?style=for-the-badge)
 [![GitHub license](https://img.shields.io/github/license/osk2/wafflecity-custom-component?style=for-the-badge)](https://github.com/osk2/wafflecity-custom-component/blob/master/LICENSE)
 
@@ -22,10 +22,8 @@
 
 1. 在 Home Assistant 中開啟 HACS
 2. 點選「整合」
-3. 點選右上角選單，選擇「自訂存放庫」
-4. 新增 `https://github.com/osk2/wafflecity-custom-component`，類別選擇「Integration」
-5. 搜尋「Waffle City」並安裝
-6. 重新啟動 Home Assistant
+3. 搜尋「Waffle City」並安裝
+4. 重新啟動 Home Assistant
 
 ### 手動安裝
 

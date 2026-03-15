@@ -2,7 +2,7 @@
 
 # Waffle City Custom Component for Home Assistant
 
-[![hacs_badge](https://img.shields.io/badge/HACS-custom-orange.svg?style=for-the-badge)](https://github.com/hacs/integration)
+[![hacs_badge](https://img.shields.io/badge/HACS-Default-blue.svg?style=for-the-badge)](https://github.com/hacs/integration)
 ![GitHub release (latest version)](https://img.shields.io/github/v/release/osk2/wafflecity-custom-component?style=for-the-badge)
 [![GitHub license](https://img.shields.io/github/license/osk2/wafflecity-custom-component?style=for-the-badge)](https://github.com/osk2/wafflecity-custom-component/blob/master/LICENSE)
 
@@ -22,10 +22,8 @@ Home Assistant integration for Waffle City (窩福社區) package tracking.
 
 1. Open HACS in Home Assistant
 2. Click on "Integrations"
-3. Click the three dots menu and select "Custom repositories"
-4. Add `https://github.com/osk2/wafflecity-custom-component` with category "Integration"
-5. Search for "Waffle City" and install
-6. Restart Home Assistant
+3. Search for "Waffle City" and install
+4. Restart Home Assistant
 
 ### Manual Installation
 
