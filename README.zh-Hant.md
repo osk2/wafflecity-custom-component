@@ -46,7 +46,14 @@
 
 - **狀態**：待領包裹數量
 - **屬性**：
-  - `packages`：包裹詳細資訊列表
+  - `packages`：包裹詳細資訊列表，每筆包含：
+    - `package_id`：包裹唯一識別碼
+    - `community_name`：社區名稱
+    - `family_name`：戶名
+    - `user_name`：收件人姓名
+    - `places`：包裹存放位置
+    - `thumbnail`：包裹照片網址
+    - `created_at`：包裹登記時間
   - `user_id`：您的窩福社區使用者 ID
 
 ## 自動化範例

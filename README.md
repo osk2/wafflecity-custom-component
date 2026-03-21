@@ -46,7 +46,14 @@ The integration creates a sensor `sensor.waffle_city_pending_packages` with:
 
 - **State**: Number of pending packages
 - **Attributes**:
-  - `packages`: List of package details
+  - `packages`: List of package details, each containing:
+    - `package_id`: Unique identifier for the package
+    - `community_name`: Name of the community/building
+    - `family_name`: Family/household name
+    - `user_name`: Recipient name
+    - `places`: Storage location(s) of the package
+    - `thumbnail`: URL of the package photo
+    - `created_at`: Timestamp when the package was registered
   - `user_id`: Your Waffle City user ID
 
 ## Automation Example
