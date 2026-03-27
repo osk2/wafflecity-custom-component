@@ -46,7 +46,7 @@
 
 - **狀態**：待領包裹數量
 - **屬性**：
-  - `packages`：包裹詳細資訊列表，每筆包含：
+  - `packages`：包裹詳細資訊列表，依時間由新到舊排列（使用 `[0]` 取得最新一筆），每筆包含：
     - `package_id`：包裹唯一識別碼
     - `community_name`：社區名稱
     - `family_name`：戶名
@@ -73,7 +73,7 @@ automation:
           title: "新包裹已送達"
           message: "您有 {{ states('sensor.waffle_city_pending_packages') }} 件包裹待領取"
           data:
-            image: "{{ state_attr('sensor.waffle_city_pending_packages', 'packages')[-1].thumbnail }}"
+            image: "{{ state_attr('sensor.waffle_city_pending_packages', 'packages')[0].thumbnail }}"
 ```
 
 ## 授權條款

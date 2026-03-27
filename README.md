@@ -46,7 +46,7 @@ The integration creates a sensor `sensor.waffle_city_pending_packages` with:
 
 - **State**: Number of pending packages
 - **Attributes**:
-  - `packages`: List of package details, each containing:
+  - `packages`: List of package details ordered newest-first (use `[0]` to get the latest), each containing:
     - `package_id`: Unique identifier for the package
     - `community_name`: Name of the community/building
     - `family_name`: Family/household name
@@ -73,7 +73,7 @@ automation:
           title: "New Package Arrived"
           message: "You have {{ states('sensor.waffle_city_pending_packages') }} package(s) waiting."
           data:
-            image: "{{ state_attr('sensor.waffle_city_pending_packages', 'packages')[-1].thumbnail }}"
+            image: "{{ state_attr('sensor.waffle_city_pending_packages', 'packages')[0].thumbnail }}"
 ```
 
 ## License
